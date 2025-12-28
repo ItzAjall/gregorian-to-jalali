@@ -6,13 +6,12 @@ A simple Python utility to convert Gregorian dates (`yyyy/mm/dd`) to Jalali (Per
 
 - No external libraries required.
 - Correctly handles leap years.
-- Zero-padded output: `1385/05/11`.
+- Zero-padded output: `1404/10/07`.
 
 ## Usage
 
 ```python
-from convert import convert_to_persian
-
-date = "2006/08/01"
+date = "2025/12/28"
 jalali_date = convert_to_persian(date)
-print(jalali_date)  # Output: 1385/05/11
+print(jalali_date)  # Output: 1404/10/07
+```
